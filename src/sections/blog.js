@@ -3,7 +3,6 @@ import CasinoIcon from '@mui/icons-material/Casino';
 import DescriptionIcon from '@mui/icons-material/Description';
 import GitHubIcon from '@mui/icons-material/GitHub';
 // import PeopleIcon from '@mui/icons-material/People';
-import { useTheme } from '@mui/material/styles';
 
 function Blog() {
     return (
