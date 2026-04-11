@@ -17,6 +17,20 @@ function Blog() {
             <br />
             <Card variant="outlined" sx={{marginBottom:1}}>
                 <CardContent>
+                    <Box color="primary.dark" component="a" href="https://bitmysteries.itch.io/depthrangers" sx={{ display:"flex", textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
+                        <CasinoIcon
+                            sx={{ fontSize:100, mr: 2, width:40, alignSelf:"center", justifyContent:"center" }}
+                        />
+                        <Box>
+                            <Typography variant="h6">Recreation as a means of testing a complete product rollout - DepthRangers RPG System </Typography>
+                            <Typography gutterBottom sx={{color:"secondary.dark"}}>Eduardo del Corral</Typography>
+                            <Typography>We have our first official BajaInnoTech product rollout via our recreation division, BIT Mysteries. It's an RPG System licensed under Creative Commons 4.0 Attribution- ShareAlike License. One of the key goals for this endeavor was to learn about Product Placement, preparing us for our upcoming Visionary Planner rollout. We also deepened our markdown knowledge, testing many edge cases. One of these are the particulars of its HTML & PDF rendering, as well as the limits of GitHub markdown.</Typography>
+                        </Box>
+                    </Box>
+                </CardContent>
+            </Card>
+            <Card variant="outlined" sx={{marginBottom:1}}>
+                <CardContent>
                     <Box color="primary.dark" component="a" href="https://medium.com/bajainnotech/a-bit-of-fun-and-a-lot-of-legalese-creative-commons-rpgs-and-gnuv3-3e32628fa454" sx={{ display:"flex", textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
                         <DescriptionIcon
                             sx={{ fontSize:100, mr: 2, width:40, alignSelf:"center", justifyContent:"center", }}
